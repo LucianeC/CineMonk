@@ -1,5 +1,5 @@
 import { BrowserRounter, Switch, Route } from "react-route-dom";
-import Conclusion from '.pages/conclusion';
+import Conclusion from './pages/conclusion';
 
 
 export default function Routes() {

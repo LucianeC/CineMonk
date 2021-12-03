@@ -2,7 +2,7 @@
 
 export default function conclusion() {
     return (
-        <Conteiner_conclusion>
+        <Container_conclusion>
 
             <div className="f1"> 
                 <div className="logo"><img src="/assets/images/ticket-logo" alt="CineMonk"/> CineMonk </div>
@@ -10,9 +10,8 @@ export default function conclusion() {
                 <div className="message"> Agora é só aproveitar o filme :) </div> 
             </div>
 
-
             <div className="menu_button"><button> Menu </button></div>
 
-        </Conteiner_conclusion>
+        </Container_conclusion>
     )
 }
