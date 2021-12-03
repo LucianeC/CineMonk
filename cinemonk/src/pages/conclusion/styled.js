@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container_conclusion = styled.div`
+const Containerconclusion = styled.div`
 
     background-image: url(../../../assets/images/background.png);
     background-attachment: fixed;
@@ -40,4 +40,4 @@ const Container_conclusion = styled.div`
     }
 `
 
-export {Container_conclusion}
+export {Containerconclusion}

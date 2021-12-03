@@ -1,10 +1,10 @@
-import { Container_conclusion} from "./styled";
+import { Containerconclusion } from "./styled";
 import Logo from "../../components/CineMonk-logo-2/index";
 import Ticket from "../../components/ticket_sucess/index";
 
-export default function conclusion() {
+export default function Conclusion() {
     return (
-        <Container_conclusion>
+        <Containerconclusion>
             <Logo/>
 
             <div className="f1-message"> 
@@ -16,6 +16,6 @@ export default function conclusion() {
 
             <div className="menu_button"><button> Menu </button></div>
 
-        </Container_conclusion>
+        </Containerconclusion>
     )
 }
