@@ -5,7 +5,7 @@ export default function CineMonk(){
         <Container_ticket>
 
             <div className="ticket_information_basic">
-                <div className="armchair"> A1 </div>
+                <div className="armchair"> a1 </div>
                 <div className="ticket_type"> meia </div>
                 <div className="ticket_identification"> #864825684 </div>
             </div>
@@ -20,7 +20,7 @@ export default function CineMonk(){
             <div className="movie_type">
                 <div className="language"> Dublado </div>
                 <div className="room_movie"> Sala 08 </div>
-                <div className="timetabl_movie"> 13:00h </div>
+                <div className="timetable_movie"> 13:00h </div>
             </div>
 
         </Container_ticket>
