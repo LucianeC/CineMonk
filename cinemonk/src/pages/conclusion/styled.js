@@ -7,7 +7,9 @@ const Containerconclusion = styled.div`
     background-repeat: no-repeat;
     background-size: 1359px 800px;
 
+    margin: 0em;
 
+    
     
     .message {
         color: E1E1E1;
@@ -33,7 +35,7 @@ const Containerconclusion = styled.div`
         position: relative; 
 
         border: none;
-        boder-radius: 2em;
+        border-radius: 2em;
 
         width: 9em;
         heigth: 9em;

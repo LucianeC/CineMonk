@@ -1,6 +1,6 @@
 import { Container_ticket} from "./styled";
 
-export default function CineMonk(){
+export default function Ticket(){
     return (
         <Container_ticket>
 
