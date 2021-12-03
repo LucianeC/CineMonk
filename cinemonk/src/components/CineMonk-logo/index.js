@@ -1,10 +1,11 @@
+import { CineMonk } from "./styled"
 
-export default function CineMonk(){
+export default function Cinemonk(){
     return (
-        <Container-logo>
+        <CineMonk>
             <div className="logo"><img class = "ticket" src= {"./public/assets/images/ticket-logo.png"} alt=""></img></div>
             <div className="title"> CineMonk </div>
-        </Container-logo>
+        </CineMonk>
     )
 }
 

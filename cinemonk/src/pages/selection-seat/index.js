@@ -2,11 +2,11 @@ import { Seat } from "./styled.js";
 import Logo from "../../components/CineMonk-logo/index" 
 
 
-export default function Seat(){
+export default function Seats(){
     return (
-        <Container_Seat>
+        <Seat>
             <Logo></Logo>
             
-        </Container_Seat>
+        </Seat>
     )
 }

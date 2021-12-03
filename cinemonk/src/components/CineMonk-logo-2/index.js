@@ -1,3 +1,4 @@
+import {Container_logo} from './styled'
 
 export default function CineMonk(){
     return (
