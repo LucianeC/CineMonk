@@ -1,4 +1,4 @@
-import { BrowserRounter, Switch, Route } from "react-route-dom";
+import { BrowserRounter, Switch, Route } from "react-router-dom";
 import Conclusion from './pages/conclusion';
 
 
