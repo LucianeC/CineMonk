@@ -1,5 +1,5 @@
 import { Seat } from "./styled.js";
-import Logo from "../../components/CineMock-logo/index" 
+import Logo from "../../components/CineMonk-logo/index" 
 
 
 export default function Seat(){
