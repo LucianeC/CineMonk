@@ -3,10 +3,9 @@ import styled from "styled-components";
 const Container_ticket = styled.div`
     
 
-    background-image: url(../../../assets/images/background.png);
+    background-image: url(../../../assets/images/ticket-sucess.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1359px 800px;
 
 
     .ticket_information_basic {
