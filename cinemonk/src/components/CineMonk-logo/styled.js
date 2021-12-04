@@ -4,6 +4,9 @@ const CineMonk = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left:4em;
+   
+}
 
 .title{
     color: rgba(240, 161, 36, 1);
@@ -14,6 +17,6 @@ const CineMonk = styled.div`
 .ticket{
     width: 70px;
     margin-right: 20px;
-}
+    
 `
 export{CineMonk}
