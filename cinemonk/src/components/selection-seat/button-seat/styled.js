@@ -5,7 +5,7 @@ const ButtonSeat = styled.div`
 button{
         color: #767676;
         background: radial-gradient(circle, #f4f4f4 0%, #c1c1c1 100%);
-        font-family: Roboto;
+        font-family: Roboto-Bold;
         font-size:24px;
         text-align: center;
         text-decoration: none;

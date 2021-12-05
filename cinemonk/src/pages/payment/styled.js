@@ -7,11 +7,15 @@ const Container = styled.div`
     background-image: url(assets/images/background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1359px 800px;
+    background-size: 1366px 700px;
+
+    padding-bottom: 5.09em;
 
 .header {
     display: flex;
     align-items: center;
+
+    margin-top: 1em;
 }
 
 .logo-title {
@@ -19,6 +23,11 @@ const Container = styled.div`
     align-items: center;
 
     margin-left: 3em;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
 }
 
 .title {
@@ -51,12 +60,12 @@ const Container = styled.div`
     align-items: center;
 
     margin-top: 3em;
-    margin-left: 10em;
+    margin-left: 10.5em;
 
     background-color: #AA0A0A;
 
-    width: 11.6em;
-    height: 25em;
+    width: 13em;
+    height: 26em;
 
     border-radius: 5px 5px 5px 0px;
 }
@@ -66,7 +75,7 @@ const Container = styled.div`
 }
 
 .poster-image img {
-    width: 180px;
+    width: 200px;
     height: 300px;
 }
 
@@ -74,7 +83,7 @@ const Container = styled.div`
     margin-top: 0.3em;
     margin-left: 1em;
     
-    font-size: 17px;
+    font-size: 19px;
     font-family: Share-Tech;
     color: #FFCA76;
 }
@@ -82,7 +91,7 @@ const Container = styled.div`
 .film-language {
     margin-top: 0.3em;
     
-    font-size: 15px;
+    font-size: 16px;
     font-family: Share-Tech;
     color: #FFF;
 }
@@ -90,7 +99,7 @@ const Container = styled.div`
 .movie-rating {
     margin-top: 0.2em;
     
-    font-size: 15px;
+    font-size: 16px;
     font-family: Share-Tech;
     color: #FFF;
 }
@@ -105,14 +114,16 @@ const Container = styled.div`
     justify-content: space-around;
 
     margin-top: 5em;
-    margin-left: 12em;
+    margin-left: 10.5em;
     
     background-color: #AA0A0A;
 
     border-radius: 5px;
 
-    width: 30em;
+    width: 40em;
     height: 15em;
+
+    opacity: 0.9;
 }
 
 .seats-box {
@@ -121,6 +132,7 @@ const Container = styled.div`
 
 .seat-text {
     margin-top: 0.7em;
+    margin-left: 1em;
     
     font-size: 25px;
     font-family: Spartan;
@@ -131,20 +143,26 @@ const Container = styled.div`
     display: flex;
 
     margin-top: 1.5em;
+    margin-bottom: 0.3em;
 }
 
 .seat-ticket-box {
     display: flex;
+
+    margin-bottom: 0.3em;
 }
 
 .seat {
-    font-size: 13px;
+    margin-top: 0.3em;
+    
+    font-size: 16px;
     font-family: Spartan;
     color:#FFF;
 }
 
 .order-text {
     margin-top: 0.7em;
+    margin-left: 1em;
     
     font-size: 25px;
     font-family: Spartan;
@@ -156,9 +174,13 @@ const Container = styled.div`
 
     border-radius: 25px;
 
+    width: 7em;
+
     font-size: 15px;
     font-family: Roboto-Regular;
     color:#4F4F4F;
+
+    border: 1px solid black;
 }
 
 .select-ticket select {
@@ -166,9 +188,13 @@ const Container = styled.div`
     
     border-radius: 25px;
 
+    width: 7em;
+
     font-size: 15px;
     font-family: Roboto-Regular;
     color:#4F4F4F;
+
+    border: 1px solid black;
 }
 
 option {
@@ -177,18 +203,38 @@ option {
     color:#4F4F4F;
 }
 
+.line {
+    margin-top: 1.2em;
+}
+
+.line img {
+    width: 0.5px;
+    height: 200px;
+}
+
+.ticket-box1 {
+    display: flex;
+
+    margin-top: 1.5em;
+}
+
 .ticket-box {
     display: flex;
 }
 
 .half-ticket {
-    font-size: 13px;
+    margin-left: -1.2em;
+    
+    font-size: 16px;
     font-family: Spartan;
     color:#FFF;
 }
 
 .entire-ticket {
-    font-size: 13px;
+    margin-top: 0.5em;
+    margin-left: -2.1em;
+    
+    font-size: 16px;
     font-family: Spartan;
     color:#FFF;
 }
@@ -196,23 +242,32 @@ option {
 .half-ticket-number {
     margin-left: 1.4em;
     
-    font-size: 13px;
+    font-size: 16px;
     font-family: Spartan;
     color:#FFF;
 }
 
 .entire-ticket-number {
-    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-left: 1.4em;
     
-    font-size: 13px;
+    font-size: 16px;
     font-family: Spartan;
     color:#FFF;
 }
 
 .total-payment {
-    font-size: 15px;
+    margin-top: 4.3em;
+    margin-left: -1.3em;
+    
+    font-size: 19px;
     font-family: Spartan;
     color:#FFF;
+}
+
+Button {
+    margin-top: 1em;
+    margin-left: 29em;
 }
 `
 
