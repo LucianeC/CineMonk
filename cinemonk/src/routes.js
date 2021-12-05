@@ -9,10 +9,10 @@ export default function Rotas() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/conclusion" exact={true} component={Conclusion} />
-                <Route path="/selction-seat" exact={true} component={Seat} />
-                <Route path="/" exact={true} component={Home} />
-                <Route path="selection-hours" exact={true} component={Hours} />
+                <Route path="/conclusion" exact={true} element={<Conclusion/>} />
+                <Route path="/selction-seat" exact={true} element={<Seat/>} />
+                <Route path="/" exact={true} element={<Home/>} />
+                <Route path="selection-hours" exact={true} element={<Hours/>} />
             </Routes>
         </BrowserRouter>
     )
