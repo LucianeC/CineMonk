@@ -4,6 +4,7 @@ const ContainerSeat = styled.div`
     background-image: url('/assets/images/background.png');
     background-repeat: no-repeat;
     border: none;
+    
 
 .header{
     display: flex;
