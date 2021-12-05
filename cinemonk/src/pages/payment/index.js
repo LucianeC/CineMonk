@@ -1,6 +1,6 @@
 import { Container } from './styled'
 import CineMonk from '../../components/CineMonk-logo'
-import ButtonSeat from '../../components/selection-seat/button-seat'
+import ButtonPayment from '../../components/button-payment'
 
 export default function Index() {
     return (
@@ -92,7 +92,7 @@ export default function Index() {
                     </div>
                 </div>
 
-                <ButtonSeat />
+                <ButtonPayment />
             </div>
         </div>
         </Container>
