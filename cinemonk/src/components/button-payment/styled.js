@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ButtonSeat = styled.div`
+const ButtonPayment = styled.div`
 
 button{
         color: #767676;
@@ -20,4 +20,4 @@ button{
         }
 }
 `
-export {ButtonSeat}
+export {ButtonPayment}
