@@ -1,8 +1,8 @@
-import {Container_box_date} from './styled'
+import {Container_box_date_great} from './styled'
 
-export default function Box_date(){
+export default function Box_date_great(){
     return (
-        <Container_box_date>
-        </Container_box_date>
+        <Container_box_date_great>
+        </Container_box_date_great>
     )
 }

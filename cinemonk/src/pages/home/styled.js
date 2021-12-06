@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const Container_button = styled.div`
+const Container_home = styled.div`
      
 `
 
-export {Container_button}
+export {Container_home}
