@@ -20,7 +20,7 @@ const Container_logo = styled.div`
 
 .title {
     color: #f0a124;
-    font-size: 64px;
+    font-size: 60px;
     font-family: Seoul-Hangang;
 
     text-align: center !important;
