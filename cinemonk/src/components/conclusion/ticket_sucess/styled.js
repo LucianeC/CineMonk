@@ -1,29 +1,102 @@
 import styled from "styled-components";
 
 const Container_ticket = styled.div`
-     .ticket_information_basic {}
 
-     .armchair {}
+     .ticket_information_basic {
+          display: flex;
+          flex-direction: row;
+     }
 
-     .ticket_type {}
 
-     .ticket_identification {}
+     .armchair {
+          color: #960404;
+          font-size: 16px;
+          font-family: Share-Tech;
 
-     .date_time {}
+          text-transform: uppercase;
 
-     .date {}
+          padding-right: .3em;
+     }
 
-     .time {}
 
-     .movie_name {}
+     .ticket_type {
+          color: #960404;
+          font-size: 16px;
+          font-family: Share-Tech;
 
-     .movie_type {}
+          text-transform: uppercase;
 
-     .language {}
+          padding-right: .3em;
+     }
 
-     .room_movie {}
 
-     .timetable_movie {}
+     .ticket_identification {
+          color: #960404;
+          font-size: 16px;
+          font-family: Share-Tech;
+     }
+
+
+     .date_time {
+          display: flex;
+          flex-direction: row;
+     }
+
+
+     .date {
+          color: #373737;
+          font-size: 12px;
+          font-family: Share-Tech;
+
+          padding-right: .5em;
+     }
+
+
+     .time {
+          color: #373737;
+          font-size: 12px;
+          font-family: Share-Tech;
+     }
+
+
+     .movie_name {
+          color: #000000;
+          font-size: 16px;
+          font-family: Share-Tech;
+     }
+
+
+     .movie_type {
+          display: flex;
+          flex-direction: row;
+     }
+
+
+     .language {
+          color: #960404;
+          font-size: 16px;
+          font-family: Share-Tech;
+
+          padding-right: .4em;
+     }
+
+
+     .room_movie {
+          color: #960404;
+          font-size: 16px;
+          font-family: Share-Tech;
+
+          padding-right: .4em;
+     }
+
+
+     .timetable_movie {
+          color: #960404;
+          font-size: 16px;
+          font-family: Share-Tech;
+
+          padding-right: .4em;
+     }
 `
 
 export {Container_ticket}

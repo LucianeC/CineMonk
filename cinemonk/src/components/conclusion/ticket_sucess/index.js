@@ -4,6 +4,8 @@ export default function Ticket(){
     return (
         <Container_ticket>
 
+            <img className="img-ticket" src="assets/images/ticket-sucess.png" alt="" style={{zIndex: 1}} />
+
             <div className="ticket_information_basic">
                 <div className="armchair"> a1 </div>
                 <div className="ticket_type"> meia </div>
