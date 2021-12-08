@@ -15,7 +15,7 @@ const Container_box_date_little = styled.div`
     margin-bottom: 1em;
 
     padding-top: 0.5em;
-
+    
 
 
 
