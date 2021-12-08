@@ -6,10 +6,14 @@ const Container_box_date_great = styled.div`
 
     text-align: center;
 
-    border-radius: 0.3em;
+    border-radius: 0.6em;
 
-    height: 6em;
-    width: 7em;
+    height: 285px;
+    width: 370px;
+
+    margin-right: 3em;
+    margin-left: 14em;
+    padding-top: 2em;
 
 
 
@@ -17,25 +21,29 @@ const Container_box_date_great = styled.div`
 
     .week {
         color: #e1e1e1;
-        font-size: 20px;
+        font-size: 40px;
         font-family: Space-Mono;
 
         text-transform: uppercase;
+
+        padding-bottom: 1em;
     }
 
 
 
     .day {
         color: #e1e1e1;
-        font-size: 20px;
+        font-size: 70px;
         font-family: Spartan;
+
+        padding-bottom: 0.3em;
     }
 
 
 
     .month {
         color: #e1e1e1;
-        font-size: 20px;
+        font-size: 40px;
         font-family: Space-Mono;
 
         text-transform: uppercase;

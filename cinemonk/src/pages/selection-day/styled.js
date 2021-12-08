@@ -23,7 +23,10 @@ const Container_selection_day = styled.div`
         display: flex;
         flex-direction: row;
 
-        justify-content: center;
+        justify-content: center !important;
+
+        padding-top: 4.25em;
+        padding-bottom: 6.6em;
     }
 
 
@@ -31,6 +34,8 @@ const Container_selection_day = styled.div`
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+
+        width: 700px;
     }
 `
 

@@ -8,8 +8,13 @@ const Container_box_date_little = styled.div`
 
     border-radius: 0.5em;
 
-    height: 6em;
-    width: 7em;
+    height: 142px;
+    width: 160px;
+
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+
+    padding-top: 0.5em;
 
 
 
@@ -17,15 +22,17 @@ const Container_box_date_little = styled.div`
 
     .week {
         color: #e1e1e1;
-        font-size: 15px;
+        font-size: 24px;
         font-family: Space-Mono;
+
+        padding-bottom: 0.5em;
     }
 
 
 
     .day {
         color: #e1e1e1;
-        font-size: 15px;
+        font-size: 40px;
         font-family: Spartan;
     }
 
@@ -33,7 +40,7 @@ const Container_box_date_little = styled.div`
 
     .month {
         color: #e1e1e1;
-        font-size: 15px;
+        font-size: 24px;
         font-family: Space-Mono;
 
         text-transform: uppercase;
