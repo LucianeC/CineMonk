@@ -20,7 +20,7 @@ export default function Seats(){
                 </div>
                 
             </div>
-            
         </ContainerSeat>
     )
 }
+

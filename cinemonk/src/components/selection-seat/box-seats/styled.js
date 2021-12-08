@@ -24,8 +24,13 @@ img{
     }
 
 .lyrics{
+    
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(170, 10, 10, 1);
-    text-align: center;
     width: 2em;
     height: 2em;
     color: rgba(255, 255, 255, 1);
