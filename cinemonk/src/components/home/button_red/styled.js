@@ -11,6 +11,7 @@ const Container_button = styled.div`
         border-radius: 1em;
 
         text-align: center;
+        text-transform: uppercase;
 
         height: 4em;
         width: 5em;
