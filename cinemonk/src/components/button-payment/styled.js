@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
-const ButtonSeat = styled.div`
+const ButtonPayment = styled.div`
 
 button{
-        
         color: #767676;
         background: radial-gradient(circle, #f4f4f4 0%, #c1c1c1 100%);
         font-family: Roboto-Bold;
@@ -21,4 +20,4 @@ button{
         }
 }
 `
-export {ButtonSeat}
+export {ButtonPayment}
