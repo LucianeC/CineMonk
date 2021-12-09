@@ -16,7 +16,7 @@ export default function Seats(){
                     <BoxSeats></BoxSeats>
                 </div>
                 <div className= "containerButton">
-                    <Button></Button>
+                    <Button> </Button>
                 </div>
                 
             </div>

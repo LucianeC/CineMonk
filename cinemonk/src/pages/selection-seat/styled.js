@@ -24,7 +24,7 @@ const ContainerSeat = styled.div`
     display: flex;
     flex-direction: row;
     margin-top: 3em;
-    justify-content:  flex-end;
+    justify-content:  center;
         
     }  
 
@@ -39,7 +39,6 @@ const ContainerSeat = styled.div`
 
 .containerButton{
     display: flex;
-    
 
     margin-top: 25em;
     padding-left: 1em;
