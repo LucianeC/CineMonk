@@ -1,11 +1,11 @@
 import { Container } from "./styled"
 
-export default function Schedules() {
+export default function Schedules(props) {
     return (
         <Container>
-            <div className="sala"></div>
-            <div className="horario3"></div>
-            <div className="informacoes"></div>
+            <div className="theater"> {props.film_theater} </div>
+            <div className="hour"> {props.film_hour} </div>
+            <div className="language"> {props.film_language} </div>
         </Container>
     )
 } 

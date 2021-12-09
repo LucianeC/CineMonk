@@ -16,7 +16,7 @@ export default function Index() {
             <div className="film-poster-box">
                 <div className="poster-image"><img src="assets/images/movie-cover-large.png" alt="" /></div>
                 <div className="film-title">Harry Potter e a Pedra Filosofal</div>
-                <div className="film-language">Legendado</div>
+                <div className="film-language">Legendado e Dublado</div>
                 <div className="movie-rating">Classificação: +12</div>
             </div>
 
