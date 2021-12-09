@@ -11,5 +11,5 @@ Este projeto objetiva o desenvolvimento de um Tóten de Venda de Ingresso de Cin
 ### Backend
 
 1. NodeJS
-2. Express
+2. ExpressJS
 3. MongoDB
